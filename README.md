@@ -1,8 +1,8 @@
-#Multi-Threading Experiment
+# Multi-Threading Experiment
 This exercise was my first introduction into threads and multithreading. I decided to attempt a matrix multiplication algorithm to showcase threading and its usefulness. The program is built to allow for flexibility in the number of threads and the size of the matrices. It showcases the amount of time it takes to multiply two matrices in one thread versus the number of threads set at the beginning of the Main class.
 
 
-##What I learned:
+## What I learned:
 - How to implement threads in Java, both by extending the Thread class or by implementing the Runnable interface.
 - How to ensure thread execution finishes before the program concludes with the join() method.
 - When to use threads and when not to use them.
